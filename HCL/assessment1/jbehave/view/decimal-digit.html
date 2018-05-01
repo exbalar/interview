@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>decimal-digit</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1>Story: The Decimal Digit</h1>
+<div class="path">file:/Users/dhanpalchauhan/DhanpalChauhan/Temporary/TODELETE/temp/JAVA-JUNIOR-4/bin/stories/decimal-digit.story</div>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@scope interview</div>
+</div>
+<div class="scenario">
+<h2>Scenario: 1</h2>
+<div class="step successful">When the input is <span class="step parameter">25607</span></div>
+<div class="step failed">Then the output should look like<br/>[20000,5000,600,7] <span class="keyword failed">(FAILED)</span><br/><span class="message failed">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;[20000,5000,600,7]&gt;</span></div>
+<pre class="failure">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;[20000,5000,600,7]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.hcl.interviews.Original.thenOutputShouldLookLike(Original.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jbehave.core.steps.StepCreator$ParameterisedStep.perform(StepCreator.java:550)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:499)
+	at org.jbehave.core.embedder.StoryRunner.runStepsWhileKeepingState(StoryRunner.java:479)
+	at org.jbehave.core.embedder.StoryRunner.runScenarioSteps(StoryRunner.java:443)
+	at org.jbehave.core.embedder.StoryRunner.runCancellable(StoryRunner.java:305)
+	at org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:219)
+	at org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:180)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:229)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:201)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre>
+</div>
+<div class="scenario">
+<h2>Scenario: 2</h2>
+<div class="step successful">When the input is <span class="step parameter">47821</span></div>
+<div class="step failed">Then the output should look like<br/>[40000,7000,800,20,1] <span class="keyword failed">(FAILED)</span><br/><span class="message failed">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;[40000,7000,800,20,1]&gt;</span></div>
+<pre class="failure">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;[40000,7000,800,20,1]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.hcl.interviews.Original.thenOutputShouldLookLike(Original.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jbehave.core.steps.StepCreator$ParameterisedStep.perform(StepCreator.java:550)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:499)
+	at org.jbehave.core.embedder.StoryRunner.runStepsWhileKeepingState(StoryRunner.java:479)
+	at org.jbehave.core.embedder.StoryRunner.runScenarioSteps(StoryRunner.java:443)
+	at org.jbehave.core.embedder.StoryRunner.runCancellable(StoryRunner.java:305)
+	at org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:219)
+	at org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:180)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:229)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:201)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre>
+</div>
+<div class="scenario">
+<h2>Scenario: 3</h2>
+<div class="step successful">When the input is <span class="step parameter">987654</span></div>
+<div class="step failed">Then the output should look like<br/>[900000,80000,7000,600,50,4] <span class="keyword failed">(FAILED)</span><br/><span class="message failed">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;[900000,80000,7000,600,50,4]&gt;</span></div>
+<pre class="failure">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;[900000,80000,7000,600,50,4]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.hcl.interviews.Original.thenOutputShouldLookLike(Original.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jbehave.core.steps.StepCreator$ParameterisedStep.perform(StepCreator.java:550)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:499)
+	at org.jbehave.core.embedder.StoryRunner.runStepsWhileKeepingState(StoryRunner.java:479)
+	at org.jbehave.core.embedder.StoryRunner.runScenarioSteps(StoryRunner.java:443)
+	at org.jbehave.core.embedder.StoryRunner.runCancellable(StoryRunner.java:305)
+	at org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:219)
+	at org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:180)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:229)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:201)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre>
+</div>
+<div class="scenario">
+<h2>Scenario: 4</h2>
+<div class="step successful">When the input is <span class="step parameter">20000000</span></div>
+<div class="step failed">Then the output should look like<br/>[20000000] <span class="keyword failed">(FAILED)</span><br/><span class="message failed">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;[20000000]&gt;</span></div>
+<pre class="failure">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;[20000000]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.hcl.interviews.Original.thenOutputShouldLookLike(Original.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jbehave.core.steps.StepCreator$ParameterisedStep.perform(StepCreator.java:550)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:499)
+	at org.jbehave.core.embedder.StoryRunner.runStepsWhileKeepingState(StoryRunner.java:479)
+	at org.jbehave.core.embedder.StoryRunner.runScenarioSteps(StoryRunner.java:443)
+	at org.jbehave.core.embedder.StoryRunner.runCancellable(StoryRunner.java:305)
+	at org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:219)
+	at org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:180)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:229)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:201)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre>
+</div>
+<div class="scenario">
+<h2>Scenario: 5</h2>
+<div class="step successful">When the input is <span class="step parameter">3020504070</span></div>
+<div class="step failed">Then the output should look like<br/>[3000000000,20000000,500000,4000,70] <span class="keyword failed">(FAILED)</span><br/><span class="message failed">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;[3000000000,20000000,500000,4000,70]&gt;</span></div>
+<pre class="failure">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;[3000000000,20000000,500000,4000,70]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.hcl.interviews.Original.thenOutputShouldLookLike(Original.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jbehave.core.steps.StepCreator$ParameterisedStep.perform(StepCreator.java:550)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:499)
+	at org.jbehave.core.embedder.StoryRunner.runStepsWhileKeepingState(StoryRunner.java:479)
+	at org.jbehave.core.embedder.StoryRunner.runScenarioSteps(StoryRunner.java:443)
+	at org.jbehave.core.embedder.StoryRunner.runCancellable(StoryRunner.java:305)
+	at org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:219)
+	at org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:180)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:229)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:201)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

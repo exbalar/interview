@@ -1,0 +1,56 @@
+‹2017-12-12T16:45:40.211 | est worker | ClasspathStoryFinder | DEBUG  - Searching for stories called decimal-digit.story in [D:\test\hcl\assessment\build\classes\java\test, D:\test\hcl\assessment\build\resources\test, D:\test\hcl\assessment\build\classes\java\main] 
+Í2017-12-12T16:45:40.247 | est worker | aviouralTestEmbedder | DEBUG  - Running BehaviouralTestEmbedder with spring_stories [file:/D:/test/hcl/assessment/build/resources/test/stories/decimal-digit.story] 
+!Processing system properties {}
+ÜUsing controls EmbedderControls[batch=false,skip=false,generateViewAfterStories=true,ignoreFailureInStories=false,ignoreFailureInView=false,verboseFailures=false,verboseFiltering=false,storyTimeoutInSecs=300,threads=1]
+
+(BeforeStories)
+
+]Running story file:/D:/test/hcl/assessment/build/resources/test/stories/decimal-digit.story
+Story: The Decimal Digit
+P(file:/D:/test/hcl/assessment/build/resources/test/stories/decimal-digit.story)
+Meta:
+@scope interview
+
+Scenario: 1
+When the input is 25607
+"Then the output should look like
+20000,5000,600,7
+
+Scenario: 2
+When the input is 47821
+"Then the output should look like
+40000,7000,800,20,1
+
+-----candidate-tests-end-----
+
+Scenario: 3
+When the input is 987654
+"Then the output should look like
+900000,80000,7000,600,50,4
+
+Scenario: 4
+When the input is 20000000
+"Then the output should look like
+	20000000
+
+Scenario: 5
+When the input is 3020504
+"Then the output should look like
+3000000,20000,500,4
+
+Scenario: 6
+When the input is 9
+"Then the output should look like
+9
+
+Scenario: 7
+When the input is 30000
+"Then the output should look like
+30000
+
+
+
+(AfterStories)
+
+¼Generating reports view to 'D:\test\hcl\assessment\build\classes\java\jbehave' using formats '[stats, xml, html, console]' and view properties '{defaultFormats=stats, decorateNonHtml=true, viewDirectory=view, decorated=ftl/jbehave-report-decorated.ftl, reports=ftl/jbehave-reports-with-totals.ftl, maps=ftl/jbehave-maps.ftl, navigator=ftl/jbehave-navigator.ftl, views=ftl/jbehave-views.ftl, nonDecorated=ftl/jbehave-report-non-decorated.ftl}'
+hReports view generated with 1 stories (of which 0 pending) containing 7 scenarios (of which 0 pending)

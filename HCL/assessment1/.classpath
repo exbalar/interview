@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry excluding="com/hcl/interviews/" kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/java/com/hcl/interviews"/>
+	<classpathentry kind="lib" path="build/libs/assessment-1.0.0.jar"/>
+	<classpathentry kind="lib" path="build/tmp/expandedArchives/org.jacoco.agent-0.7.6.201602180812.jar_c6e4c8f58c148113c152dc0b1072a756/jacocoagent.jar"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="build/classes/java/main"/>
+</classpath>

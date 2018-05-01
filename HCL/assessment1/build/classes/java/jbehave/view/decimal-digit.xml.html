@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>decimal-digit</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="file:/D:/test/hcl/assessment/build/resources/test/stories/decimal-digit.story" title="Story: The Decimal Digit">
+<meta>
+<property keyword="@" name="scope" value="interview"/>
+</meta>
+<scenario keyword="Scenario:" title="1">
+<step outcome="successful">When the input is <parameter>25607</parameter></step>
+<step outcome="successful">Then the output should look like
+20000,5000,600,7</step>
+</scenario>
+<scenario keyword="Scenario:" title="2">
+<step outcome="successful">When the input is <parameter>47821</parameter></step>
+<step outcome="successful">Then the output should look like
+40000,7000,800,20,1
+
+-----candidate-tests-end-----</step>
+</scenario>
+<scenario keyword="Scenario:" title="3">
+<step outcome="successful">When the input is <parameter>987654</parameter></step>
+<step outcome="successful">Then the output should look like
+900000,80000,7000,600,50,4</step>
+</scenario>
+<scenario keyword="Scenario:" title="4">
+<step outcome="successful">When the input is <parameter>20000000</parameter></step>
+<step outcome="successful">Then the output should look like
+20000000</step>
+</scenario>
+<scenario keyword="Scenario:" title="5">
+<step outcome="successful">When the input is <parameter>3020504</parameter></step>
+<step outcome="successful">Then the output should look like
+3000000,20000,500,4</step>
+</scenario>
+<scenario keyword="Scenario:" title="6">
+<step outcome="successful">When the input is <parameter>9</parameter></step>
+<step outcome="successful">Then the output should look like
+9</step>
+</scenario>
+<scenario keyword="Scenario:" title="7">
+<step outcome="successful">When the input is <parameter>30000</parameter></step>
+<step outcome="successful">Then the output should look like
+30000</step>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>
