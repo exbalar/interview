@@ -1,0 +1,5 @@
+Friends A, B, C, D go for a trip. They spend on various expenses. Cost of the expense is shared. Example : A spends 100 for breakfast for A, B, C and D D spends 500 for cab for B and C B spends 300 for lunch for A, B and C Write a program to calculate how much each should get or each should give to one another. App should be scalable that number of friends can change
+
+3 Answers
+Managed to get the output with some extra time.
+A =&gt; 25 , B =&gt; 75, c=&gt; 375, D=&gt; 475
